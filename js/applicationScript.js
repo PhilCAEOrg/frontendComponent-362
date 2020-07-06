@@ -44,7 +44,8 @@ var init = function() {
  
   var button = document.getElementById("button_e66a5"); 
  
-  button.addEventListener("click", function() { 
+  button.addEventListener("click", function() {  
+     console.log("clicked button");
   });
 
 

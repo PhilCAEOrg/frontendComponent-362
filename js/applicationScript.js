@@ -44,10 +44,12 @@ var init = function() {
  
   var button = document.getElementById("button_e66a5");  
  
-  var inputField = document.getElementById("");
+  var inputField = document.getElementById("input_17985");
  
   button.addEventListener("click", function() {  
-     console.log("clicked button");
+     console.log("clicked button"); 
+     var input = inputField.value; 
+     console.log(input);
   });
 
 
